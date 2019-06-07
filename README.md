@@ -19,7 +19,8 @@ If you define the credentials in a `.env` file, pipenv will automatically load t
 The simplest use is just dumping some query results to a file:
 
 ```bash
-pipenv run ./scrape.py -q 'hello world' -o hello_world.jsonLoading .env environment variables…
+pipenv run ./scrape.py -q 'hello world' -o hello_world.json
+Loading .env environment variables…
 [2019-06-07 18:55:28,954]: Using OAuth authentication
 [2019-06-07 18:55:29,682]: Dumping page 1 to hello_world.json
 [2019-06-07 18:55:30,194]: Dumping page 2 to hello_world.json
